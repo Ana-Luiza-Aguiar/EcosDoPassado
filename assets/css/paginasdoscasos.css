@@ -1,0 +1,173 @@
+/*Estilos gerais*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #fff;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o header */
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Estilo para os links de navegação */
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    text-align: center; 
+}
+
+header nav a:hover {
+    background-color: #f0a500;
+    border-radius: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+}
+
+/*Cabeçalho*/
+
+
+#logo {
+    width: 80px;
+    height: auto;
+}
+
+#logo-container h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+
+header {
+    background-color: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #999;
+}
+
+
+/* Página do Caso */
+.case-page {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #333;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.case-details .case-title {
+    font-size: 2.2rem;
+    color: #f0a500;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.case-metadata {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.case-content h2 {
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    color: #f0a500;
+    border-bottom: 2px solid #F39F5A;
+    padding-bottom: 0.3rem;
+}
+
+.case-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    color: #fff;
+}
+
+/* Estilo para Imagens */
+.case-image {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.case-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    border:none;
+}
+
+.image-caption {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
